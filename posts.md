@@ -19,16 +19,21 @@ published: false
 
 ---
 ---
-layout: default
+layout: blocks
 title: Blog
+date: 2017-11-22T23:00:00.000+00:00
+page_sections:
+- template: 1-column-text
+  block: one-column-1
+  slug: responsive
+  headline: 16 Fully Responsive Design Blocks
+  content: |
+    <ul>
+	  {% for post in site.posts %}
+	    <li>
+	      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	      {{ post.excerpt }}
+	    </li>
+	  {% endfor %}
+	</ul>
 ---
-<h1>Latest Posts</h1>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
