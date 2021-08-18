@@ -1,7 +1,7 @@
 ---
-layout: blocks
+layout: ''
 title: Posts
-date: 
+date: ''
 page_sections:
 - template: navigation-header
   block: header-1
@@ -18,3 +18,17 @@ page_sections:
 published: false
 
 ---
+---
+layout: default
+title: Blog
+---
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
