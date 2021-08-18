@@ -13,13 +13,13 @@ page_sections:
   headline: 16 Fully Responsive Design Blocks
   content: |
     <ul>
-	  {% for post in site.posts %}
-	    <li>
-	      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	      {{ post.excerpt }}
-	    </li>
-	  {% endfor %}
-	</ul>
+      {% for post in site.posts %}
+        <li>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
 - template: simple-footer
   block: footer-1
   content: ''
