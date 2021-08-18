@@ -5,8 +5,10 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header
   block: header-1
-  logo: ''
-  navigation: []
+  logo: "/uploads/2021/08/18/logo-black-simple.png"
+  navigation:
+  - link: "/"
+    link_text: Home
 - template: hero-banner-w-image
   block: hero-2
   slug: features
