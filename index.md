@@ -9,17 +9,9 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
-  - link: "#swap"
-    link_text: Swap
-  - link: "#customize"
-    link_text: Customize
-  - link: "#responsive"
-    link_text: Responsive
-  - link: "#blocks"
-    link_text: Blocks
   cta:
-    url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-    button_text: Import
+    url: ''
+    button_text: ''
 - template: hero-banner-w-image
   block: hero-2
   slug: features
