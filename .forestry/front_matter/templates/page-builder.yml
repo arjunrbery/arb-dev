@@ -34,3 +34,4 @@ fields:
 pages:
 - _posts/2021-08-17-hello-world.md
 - index.md
+- posts.md
