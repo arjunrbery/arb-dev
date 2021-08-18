@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: blocks
 title: Posts
 date: ''
 page_sections:
