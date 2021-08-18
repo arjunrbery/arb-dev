@@ -9,22 +9,6 @@ page_sections:
   navigation: []
 - template: 1-column-text
   block: one-column-1
-  headline: ''
-  slug: ''
-  content: ''
-- template: simple-footer
-  block: footer-1
-  content: ''
-published: false
-
----
----
-layout: blocks
-title: Blog
-date: 2017-11-22T23:00:00.000+00:00
-page_sections:
-- template: 1-column-text
-  block: one-column-1
   slug: responsive
   headline: 16 Fully Responsive Design Blocks
   content: |
@@ -36,4 +20,8 @@ page_sections:
 	    </li>
 	  {% endfor %}
 	</ul>
+- template: simple-footer
+  block: footer-1
+  content: ''
+published: false
 ---
